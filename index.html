@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha Café Bliss</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f7f4; /* Light sage green background */
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+        }
+        header {
+            background-color: rgba(138, 160, 123, 0.8); /* Medium sage green with transparency */
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: rgba(163, 181, 155, 0.8); /* Medium sage green with transparency */
+            display: flex;
+            justify-content: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: rgba(107, 112, 92, 0.8);
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); /* White with transparency */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about, .menu {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #6b705c;
+            font-family: 'Great Vibes', cursive;
+            font-size: 2em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        video {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .button-container a {
+            background-color: #6b705c;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-container a:hover {
+            background-color: #8aa07b;
+        }
+        footer {
+            background-color: rgba(107, 112, 92, 0.8); /* Dark sage green with transparency */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matcha Café Bliss</h1>
+        <p>Your perfect spot for exquisite matcha treats</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Matcha Café Bliss, where we serve the finest matcha beverages and desserts. Our café is inspired by traditional Japanese tea culture, providing a serene and cozy environment for our guests.</p>
+        </section>
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>Matcha Latte</li>
+                <li>Matcha Ice Cream</li>
+                <li>Matcha Roll Cake</li>
+                <li>Matcha Tiramisu</li>
+                <li>Matcha Parfait</li>
+            </ul>
+        </section>
+        <section class="video-container">
+            <h2>Our Café Experience</h2>
+            <video controls loop autoplay muted width="80%">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section class="button-container">
+            <a href="content.html">Explore More</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Matcha Café Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
